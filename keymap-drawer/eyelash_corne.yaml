@@ -296,7 +296,5 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
-- p: [3, 4]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [38, 46]
-  k: $$mdi:alpha-w-box$$
+- p: [9, 10]
+  k: $$mdi:keyboard-esc$$
