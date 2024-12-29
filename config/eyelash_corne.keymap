@@ -113,6 +113,56 @@
             bindings = <&caps_word>;
             key-positions = <15 16>;
         };
+
+        go_assign {
+            bindings = <&go_assign>;
+            key-positions = <23 24>;
+        };
+
+        assign {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 17>;
+        };
+
+        lt {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <2 3>;
+        };
+
+        gt {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <3 4>;
+        };
+
+        l_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <8 9>;
+        };
+
+        r_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <9 10>;
+        };
+
+        l_paren {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <23 24>;
+        };
+
+        r_paren {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <24 25>;
+        };
+
+        l_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <37 38>;
+        };
+
+        r_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <38 39>;
+        };
     };
 
     macros {
