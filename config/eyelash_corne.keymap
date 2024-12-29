@@ -48,15 +48,29 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
+
+        ent {
+            bindings = <&kp ENTER>;
+            key-positions = <2 3>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC        &kp Q    &kp W  &kp E      &kp R               &lt 1 T                             &kp UP                &kp Y        &kp U                  &kp I      &kp O    &kp P            &kp BACKSLASH
-&kp TAB        &lt 2 A  &kp S  &kp D      &kp F               &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J                  &kp K      &kp L    &lt 2 SEMICOLON  &kp SQT
-&kp BACKSPACE  &kp Z    &kp X  &kp C      &kp V               &lt 4 B      &kp SPACE              &kp DOWN              &kp N        &kp M                  &kp COMMA  &kp DOT  &kp FSLH         &kp DELETE
+&kp TAB        &kp Q    &kp W  &kp E      &kp R               &lt 1 T                             &kp UP                &kp Y        &kp U                  &kp I      &kp O    &kp P            &kp BACKSLASH
+&kp BACKSPACE  &lt 2 A  &kp S  &kp D      &kp F               &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J                  &kp K      &kp L    &lt 2 SEMICOLON  &kp SQT
+&kp TAB        &kp Z    &kp X  &kp C      &kp V               &lt 4 B      &kp SPACE              &kp DOWN              &kp N        &kp M                  &kp COMMA  &kp DOT  &kp FSLH         &kp DELETE
                                &kp MINUS  &mt LEFT_GUI UNDER  &lt 3 ENTER                                               &lt 2 ENTER  &mt RIGHT_SHIFT SPACE  &kp RALT
             >;
 
