@@ -118,13 +118,6 @@
             require-prior-idle-ms = <75>;
         };
 
-        go_assign {
-            bindings = <&go_assign>;
-            key-positions = <23 24>;
-            layers = <0>;
-            require-prior-idle-ms = <75>;
-        };
-
         assign {
             bindings = <&kp EQUAL>;
             key-positions = <16 17>;
