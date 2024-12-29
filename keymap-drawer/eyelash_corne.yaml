@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - $$mdi:keyboard-esc$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: A, h: SYMBOL}
   - S
   - D
@@ -28,7 +28,7 @@ layers:
   - L
   - {t: ;, h: SYMBOL, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - Z
   - X
   - C
@@ -293,3 +293,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [1, 2]
+  k: $$mdi:keyboard-esc$$
+- p: [2, 3]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
