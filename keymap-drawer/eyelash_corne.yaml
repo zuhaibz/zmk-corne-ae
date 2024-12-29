@@ -301,9 +301,6 @@ combos:
 - p: [15, 16]
   k: $$mdi:alpha-w-box$$
   l: [QWERTY]
-- p: [23, 24]
-  k: '&go_assign'
-  l: [QWERTY]
 - p: [16, 17]
   k: {t: '=', s: +}
   l: [QWERTY]
