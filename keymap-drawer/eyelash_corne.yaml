@@ -298,3 +298,5 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [22, 23]
   k: $$mdi:keyboard-esc$$
+- p: [15, 16]
+  k: $$mdi:alpha-w-box$$
