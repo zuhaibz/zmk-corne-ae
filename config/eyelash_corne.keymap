@@ -101,12 +101,12 @@
 
         esc_l {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 3>;
+            key-positions = <17 18>;
         };
 
         esc_r {
             bindings = <&kp ESCAPE>;
-            key-positions = <9 10>;
+            key-positions = <22 23>;
         };
     };
 
