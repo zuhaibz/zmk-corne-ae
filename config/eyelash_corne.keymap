@@ -179,6 +179,16 @@
             key-positions = <38 39>;
             require-prior-idle-ms = <75>;
         };
+
+        excla {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <14 15>;
+        };
+
+        go_assign {
+            bindings = <&go_assign>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
