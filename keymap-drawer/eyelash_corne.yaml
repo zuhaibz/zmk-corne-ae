@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
   - {t: A, h: SYMBOL}
   - S
   - D
@@ -28,7 +28,7 @@ layers:
   - L
   - {t: ;, h: SYMBOL, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '-', s: _}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
@@ -148,11 +148,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   WIN:
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+Ctl+Gui+ 3
-  - Alt+Ctl+ $$mdi:arrow-left-bold$$
-  - Ctl+Alt+ $$mdi:arrow-right-bold$$
-  - Ctl+Gui+Sft+ 4
-  - Alt+Ctl+Gui+ $$mdi:arrow-right-bold$$
+  - Sft+Ctl+Gui+3
+  - Alt+Ctl+$$mdi:arrow-left-bold$$
+  - Ctl+Alt+$$mdi:arrow-right-bold$$
+  - Ctl+Gui+Sft+4
+  - Alt+Ctl+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - HOME
@@ -161,11 +161,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+Ctl+ D
-  - Alt+Ctl+ F
-  - Alt+Ctl+ T
-  - Alt+Ctl+ G
-  - {t: 'Alt+Ctl+ $$mdi:keyboard-return$$', type: enter}
+  - Alt+Ctl+D
+  - Alt+Ctl+F
+  - Alt+Ctl+T
+  - Alt+Ctl+G
+  - {t: 'Alt+Ctl+$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -183,10 +183,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+ $$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+ $$mdi:arrow-right-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - SLEEP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -294,8 +294,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held alternate}
 combos:
-- p: [17, 18]
-  k: $$mdi:keyboard-esc$$
 - p: [22, 23]
   k: $$mdi:keyboard-esc$$
 - p: [15, 16]
@@ -331,3 +329,9 @@ combos:
   k: '!'
 - p: [7, 8]
   k: '&go_assign'
+- p: [7, 8]
+  k: '&and_operator'
+  l: [SYMBOL]
+- p: [22, 23]
+  k: '&or_operator'
+  l: [SYMBOL]
