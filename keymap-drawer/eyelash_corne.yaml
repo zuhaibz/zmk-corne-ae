@@ -296,6 +296,7 @@ layers:
 combos:
 - p: [22, 23]
   k: $$mdi:keyboard-esc$$
+  l: [QWERTY]
 - p: [15, 16]
   k: $$mdi:alpha-w-box$$
   l: [QWERTY]
@@ -325,10 +326,13 @@ combos:
   l: [QWERTY]
 - p: [38, 39]
   k: '}'
+  l: [QWERTY]
 - p: [14, 15]
   k: '!'
+  l: [QWERTY]
 - p: [7, 8]
   k: '&go_assign'
+  l: [QWERTY]
 - p: [7, 8]
   k: '&and_operator'
   l: [SYMBOL]
