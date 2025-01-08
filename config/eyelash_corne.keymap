@@ -99,12 +99,6 @@
     combos {
         compatible = "zmk,combos";
 
-        esc_l {
-            bindings = <&kp ESCAPE>;
-            key-positions = <17 18>;
-            require-prior-idle-ms = <75>;
-        };
-
         esc_r {
             bindings = <&kp ESCAPE>;
             key-positions = <22 23>;
@@ -189,6 +183,18 @@
             bindings = <&go_assign>;
             key-positions = <7 8>;
         };
+
+        and {
+            bindings = <&and_operator>;
+            key-positions = <7 8>;
+            layers = <2>;
+        };
+
+        or {
+            bindings = <&or_operator>;
+            key-positions = <22 23>;
+            layers = <2>;
+        };
     };
 
     macros {
@@ -198,6 +204,20 @@
             bindings = <&kp RS(SEMICOLON) &kp EQUAL>;
             label = "GO_ASSIGN";
         };
+
+        and_operator: and {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp AMPERSAND &kp AMPERSAND>;
+            label = "AND";
+        };
+
+        or_operator: or_operator {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp PIPE &kp PIPE>;
+            label = "OR_OPERATOR";
+        };
     };
 
     keymap {
@@ -206,9 +226,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB        &kp Q            &kp W            &kp E              &kp R               &lt 1 T                              &kp UP                &kp Y        &kp U                  &kp I                   &kp O                  &kp P                 &kp BACKSLASH
-&kp BACKSPACE  &lt 2 A          &kp S            &kp D              &kp F               &kp G                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J                  &kp K                   &kp L                  &lt 2 SEMICOLON       &kp SQT
-&kp MINUS      &HML LEFT_GUI Z  &HML LEFT_ALT X  &HML LEFT_SHIFT C  &HML LCTRL V        &lt 4 B      &kp C_MUTE              &kp DOWN              &kp N        &HMR RIGHT_CONTROL M   &HMR RIGHT_SHIFT COMMA  &HMR RIGHT_ALT PERIOD  &HMR RIGHT_GUI SLASH  &kp DELETE
+&kp ESCAPE     &kp Q            &kp W            &kp E              &kp R               &lt 1 T                              &kp UP                &kp Y        &kp U                  &kp I                   &kp O                  &kp P                 &kp BACKSLASH
+&kp TAB        &lt 2 A          &kp S            &kp D              &kp F               &kp G                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J                  &kp K                   &kp L                  &lt 2 SEMICOLON       &kp SQT
+&kp BACKSPACE  &HML LEFT_GUI Z  &HML LEFT_ALT X  &HML LEFT_SHIFT C  &HML LCTRL V        &lt 4 B      &kp C_MUTE              &kp DOWN              &kp N        &HMR RIGHT_CONTROL M   &HMR RIGHT_SHIFT COMMA  &HMR RIGHT_ALT PERIOD  &HMR RIGHT_GUI SLASH  &kp DELETE
                                                  &caps_word_mo 5 0  &mt LEFT_GUI UNDER  &lt 3 ENTER                                                &lt 2 ENTER  &mt RIGHT_SHIFT SPACE  &nums_word_mo 5 0
             >;
 
