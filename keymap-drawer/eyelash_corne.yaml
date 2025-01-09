@@ -294,9 +294,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held alternate}
 combos:
-- p: [22, 23]
-  k: $$mdi:keyboard-esc$$
-  l: [QWERTY]
 - p: [15, 16]
   k: $$mdi:alpha-w-box$$
   l: [QWERTY]
