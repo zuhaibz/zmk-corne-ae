@@ -28,7 +28,7 @@ layers:
   - L
   - {t: ;, h: SYMBOL, s: ':'}
   - {t: '''', s: '"'}
-  - _
+  - '&key_repeat'
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
