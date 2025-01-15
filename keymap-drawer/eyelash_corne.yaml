@@ -28,7 +28,7 @@ layers:
   - L
   - {t: ;, h: SYMBOL, s: ':'}
   - {t: '''', s: '"'}
-  - '&key_repeat'
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
   - {t: X, h: '$$mdi:apple-keyboard-option$$'}
   - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
@@ -43,7 +43,7 @@ layers:
   - {t: /, h: RIGHT GUI, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:alpha-w-box$$', h: KBD}
-  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: _, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', h: WIN}
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
