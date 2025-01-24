@@ -93,8 +93,8 @@ layers:
   - KP ENTER
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: NUMBER, h: toggle}
+  - {t: QWERTY, h: toggle}
   - KP 0
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   SYMBOL:
