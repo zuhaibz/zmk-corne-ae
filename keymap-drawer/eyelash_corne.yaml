@@ -18,7 +18,7 @@ layers:
   - S
   - D
   - F
-  - G
+  - {t: G, h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
