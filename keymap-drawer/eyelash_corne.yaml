@@ -127,18 +127,18 @@ layers:
   - {t: '%', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '@'
-  - _
-  - '*'
-  - ^
+  - {t: '@', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: _, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ^, h: '$$mdi:apple-keyboard-control$$'}
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - $
-  - '{'
-  - '}'
-  - '?'
+  - {t: $, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '{', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '}', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '?', h: RIGHT GUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
