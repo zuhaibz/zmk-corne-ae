@@ -232,10 +232,10 @@
 
         symbol {
             bindings = <
-&trans  &none            &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH  &kp GRAVE                    &trans          &kp AMPS   &go_assign  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none         &none
-&trans  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL      &kp POUND            &trans  &trans  &trans  &kp PIPE   &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT   &none
-&trans  &kp AT           &kp UNDER      &kp ASTRK         &kp CARET      &kp SLASH  &trans            &trans          &kp TILDE  &kp DLLR    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &trans
-                                        &none             &trans         &kp SPACE                                    &trans     &trans      &none
+&trans  &none             &kp LESS_THAN    &kp GREATER_THAN      &kp BACKSLASH     &kp GRAVE                    &trans          &kp AMPS   &go_assign               &kp LEFT_BRACKET             &kp RIGHT_BRACKET      &none                    &none
+&trans  &kp EXCLAMATION   &kp MINUS        &kp PLUS              &kp EQUAL         &kp POUND            &trans  &trans  &trans  &kp PIPE   &kp COLON                &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS  &kp PERCENT              &none
+&trans  &HML LEFT_GUI AT  &HML LALT UNDER  &HML LSHIFT ASTERISK  &HML LCTRL CARET  &kp SLASH  &trans            &trans          &kp TILDE  &HMR RIGHT_CONTROL DLLR  &HMR RIGHT_SHIFT LEFT_BRACE  &HMR RALT RIGHT_BRACE  &HMR RIGHT_GUI QUESTION  &trans
+                                           &none                 &trans            &kp SPACE                                    &trans     &trans                   &none
             >;
 
             label = "SYMBOL";
