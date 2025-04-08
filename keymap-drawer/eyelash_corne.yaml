@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-esc$$
@@ -176,18 +177,18 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-off$$
-  - $$mdi:skip-previous$$
-  - PLAY PAUSE
-  - $$mdi:skip-next$$
+  - {t: '$$mdi:volume-off$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '$$mdi:skip-previous$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: PLAY PAUSE, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:skip-next$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:arrow-left-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: 'Ctl+$$mdi:arrow-right-bold$$', h: 'Ctl+$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-command$$
   - SLEEP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -323,10 +324,4 @@ combos:
   l: [QWERTY]
 - p: [38, 39]
   k: '}'
-  l: [QWERTY]
-- p: [14, 15]
-  k: '!'
-  l: [QWERTY]
-- p: [7, 8]
-  k: '&go_assign'
   l: [QWERTY]
