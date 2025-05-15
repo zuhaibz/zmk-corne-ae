@@ -58,11 +58,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP PLUS
-  - KP SLASH
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - +
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -73,11 +73,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP MINUS
-  - KP MULTIPLY
+  - '4'
+  - {t: '5', s: '%'}
+  - '6'
+  - {t: '-', s: _}
+  - '*'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -87,16 +87,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
-  - KP ENTER
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: NUMBER, h: toggle}
   - {t: QWERTY, h: toggle}
-  - KP 0
+  - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -294,6 +294,55 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held alternate}
+  WINDOWS:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - E
+  - R
+  - {t: T, h: NUMBER}
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:keyboard-tab$$
+  - {t: A, h: SYMBOL}
+  - S
+  - D
+  - F
+  - {t: G, h: 'Meh+$$mdi:apple-keyboard-command$$'}
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: SYMBOL, s: ':'}
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: B, h: FN}
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-down-bold$$
+  - N
+  - {t: M, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ',', h: '$$mdi:apple-keyboard-shift$$', s: <}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$'}
+  - {t: /, h: RIGHT GUI, s: '?'}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:alpha-w-box$$', h: KBD}
+  - {t: _, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-return$$', h: WIN}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:alpha-w-box$$', h: KBD}
 combos:
 - p: [15, 16]
   k: $$mdi:alpha-w-box$$
@@ -325,3 +374,9 @@ combos:
 - p: [38, 39]
   k: '}'
   l: [QWERTY]
+- p: [2, 3, 4]
+  k: {t: WINDOWS, h: toggle}
+  l: [QWERTY]
+- p: [2, 3, 4]
+  k: {t: QWERTY, h: toggle}
+  l: [WINDOWS]
