@@ -1,0 +1,131 @@
+layout: {zmk_keyboard: corne}
+layers:
+  default_layer:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - SEMI
+  - SQT
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - COMMA
+  - DOT
+  - FSLH
+  - ESC
+  - LGUI
+  - {t: '', h: lower_layer}
+  - SPACE
+  - RET
+  - {t: '', h: raise_layer}
+  - RALT
+  lower_layer:
+  - TAB
+  - N1
+  - N2
+  - N3
+  - N4
+  - N5
+  - N6
+  - N7
+  - N8
+  - N9
+  - N0
+  - BSPC
+  - BT_CLR
+  - {h: '1', s: $$mdi:bluetooth-connect$$}
+  - {h: '2', s: $$mdi:bluetooth-connect$$}
+  - {h: '3', s: $$mdi:bluetooth-connect$$}
+  - {h: '4', s: $$mdi:bluetooth-connect$$}
+  - {h: '5', s: $$mdi:bluetooth-connect$$}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - LSHFT
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - LGUI
+  - {t: '$$mdi:transfer$$', type: trans}
+  - SPACE
+  - RET
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RALT
+  raise_layer:
+  - TAB
+  - EXCL
+  - AT
+  - HASH
+  - DLLR
+  - PRCNT
+  - CARET
+  - AMPS
+  - ASTRK
+  - LPAR
+  - RPAR
+  - BSPC
+  - LCTRL
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - MINUS
+  - EQUAL
+  - LBKT
+  - RBKT
+  - BSLH
+  - GRAVE
+  - LSHFT
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - UNDER
+  - PLUS
+  - LBRC
+  - RBRC
+  - PIPE
+  - TILDE
+  - LGUI
+  - {t: '$$mdi:transfer$$', type: trans}
+  - SPACE
+  - RET
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RALT
