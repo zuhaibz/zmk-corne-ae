@@ -1,6 +1,6 @@
 #include "corne_common.dtsi"
 
-
+/ {
     behaviors {
         // Override HMR and HML to add board-specific hold-trigger-key-positions
         HMR: HMR {
