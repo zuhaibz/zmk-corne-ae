@@ -177,10 +177,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE     &kp Q            &kp W            &kp E              &kp R                    &lt 1 T                       &kp Y        &kp U                 &kp I                   &kp O                  &kp P                 &kp BACKSLASH
-&kp TAB        &lt 2 A          &kp S            &kp D              &kp F                    &tp LS(LA(LC(LEFT_GUI))) G    &kp H        &kp J                 &kp K                   &kp L                  &lt 2 SEMICOLON       &kp SQT
-&kp BACKSPACE  &HML LEFT_GUI Z  &HML LEFT_ALT X  &HML LEFT_SHIFT C  &HML LCTRL V             &lt 4 B                       &kp N        &HMR RIGHT_CONTROL M  &HMR RIGHT_SHIFT COMMA  &HMR RIGHT_ALT PERIOD  &HMR RIGHT_GUI SLASH  &kp DELETE
-                                                 &caps_word_mo 5 0  &mt LEFT_GUI UNDERSCORE  &lt 3 ENTER                   &lt 2 ENTER  &kp SPACE             &nums_word_mo 5 0
+&kp ESCAPE     &kp Q            &kp W            &kp E              &kp R                    &lt 1 T                       &kp Y        &kp U                   &kp I                   &kp O                  &kp P                 &kp BACKSLASH
+&kp TAB        &lt 2 A          &kp S            &kp D              &kp F                    &tp LS(LA(LC(LEFT_GUI))) G    &kp H        &kp J                   &kp K                   &kp L                  &lt 2 SEMICOLON       &kp SQT
+&kp BACKSPACE  &HML LEFT_GUI Z  &HML LEFT_ALT X  &HML LEFT_SHIFT C  &HML LCTRL V             &lt 4 B                       &kp N        &HMR RIGHT_CONTROL M    &HMR RIGHT_SHIFT COMMA  &HMR RIGHT_ALT PERIOD  &HMR RIGHT_GUI SLASH  &kp DELETE
+                                                 &caps_word_mo 5 0  &mt LEFT_GUI UNDERSCORE  &lt 3 ENTER                   &kp SPACE    &lt 2 ENTER             &nums_word_mo 5 0
             >;
         };
 
@@ -237,10 +237,10 @@
         windows {
             display-name = "WINDOWS";
             bindings = <
-&kp ESCAPE     &kp Q            &kp W            &kp E              &kp R                 &lt 1 T                       &kp Y        &kp U                 &kp I                   &kp O             &kp P            &kp BACKSLASH
-&kp TAB        &lt 2 A          &kp S            &kp D              &kp F                 &tp LS(LA(LC(LEFT_GUI))) G    &kp H        &kp J                 &kp K                   &kp L             &lt 2 SEMICOLON  &kp SQT
-&kp BACKSPACE  &HML LEFT_GUI Z  &HML LEFT_ALT X  &HML LEFT_SHIFT C  &HML LCTRL V          &lt 4 B                       &kp N        &HMR RIGHT_CONTROL M  &HMR RIGHT_SHIFT COMMA  &HMR RALT PERIOD  &HMR RGUI SLASH  &kp DELETE
-                                                 &caps_word_mo 5 0  &mt LCTRL UNDERSCORE  &lt 3 ENTER                   &lt 2 ENTER  &kp SPACE             &nums_word_mo 5 0
+&kp ESCAPE     &kp Q            &kp W            &kp E              &kp R                 &lt 1 T                       &kp Y        &kp U                  &kp I                   &kp O             &kp P            &kp BACKSLASH
+&kp TAB        &lt 2 A          &kp S            &kp D              &kp F                 &tp LS(LA(LC(LEFT_GUI))) G    &kp H        &kp J                  &kp K                   &kp L             &lt 2 SEMICOLON  &kp SQT
+&kp BACKSPACE  &HML LEFT_GUI Z  &HML LEFT_ALT X  &HML LEFT_SHIFT C  &HML LCTRL V          &lt 4 B                       &kp N        &HMR RIGHT_CONTROL M   &HMR RIGHT_SHIFT COMMA  &HMR RALT PERIOD  &HMR RGUI SLASH  &kp DELETE
+                                                 &caps_word_mo 5 0  &mt LCTRL UNDERSCORE  &lt 3 ENTER                   &kp SPACE    &lt 2 ENTER            &nums_word_mo 5 0
             >;
         };
     };
