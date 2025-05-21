@@ -302,10 +302,10 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:alpha-w-box$$', h: KBD}
 combos:
-- p: [15, 16]
+- p: [15, 14]
   k: $$mdi:alpha-w-box$$
   l: [QWERTY]
-- p: [16, 17]
+- p: [16, 15]
   k: {t: '=', s: +}
   l: [QWERTY]
 - p: [2, 3]
@@ -314,22 +314,22 @@ combos:
 - p: [3, 4]
   k: '>'
   l: [QWERTY]
-- p: [8, 9]
+- p: [8, 7]
   k: {t: '[', s: '{'}
   l: [QWERTY]
-- p: [9, 10]
+- p: [9, 8]
   k: {t: ']', s: '}'}
   l: [QWERTY]
-- p: [23, 24]
+- p: [19, 20]
   k: (
   l: [QWERTY]
-- p: [24, 25]
+- p: [20, 21]
   k: )
   l: [QWERTY]
-- p: [37, 38]
+- p: [31, 32]
   k: '{'
   l: [QWERTY]
-- p: [38, 39]
+- p: [32, 33]
   k: '}'
   l: [QWERTY]
 - p: [2, 3, 4]
