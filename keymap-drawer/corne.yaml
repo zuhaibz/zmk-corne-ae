@@ -43,6 +43,49 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: '$$mdi:alpha-w-box$$', h: KBD}
+  WINDOWS:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - E
+  - R
+  - {t: T, h: NUMBER}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:keyboard-tab$$
+  - {t: A, h: SYMBOL}
+  - S
+  - D
+  - F
+  - {t: G, h: 'Meh+$$mdi:apple-keyboard-command$$'}
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, h: SYMBOL, s: ':'}
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: B, h: FN}
+  - N
+  - {t: M, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ',', h: '$$mdi:apple-keyboard-shift$$', s: <}
+  - {t: ., h: '$$mdi:apple-keyboard-option$$'}
+  - {t: /, h: RGUI, s: '?'}
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:alpha-w-box$$', h: KBD}
+  - {t: _, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-return$$', h: WIN}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: '$$mdi:alpha-w-box$$', h: KBD}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -258,49 +301,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held alternate}
-  WINDOWS:
-  - $$mdi:keyboard-esc$$
-  - Q
-  - W
-  - E
-  - R
-  - {t: T, h: NUMBER}
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: \, s: '|'}
-  - $$mdi:keyboard-tab$$
-  - {t: A, h: SYMBOL}
-  - S
-  - D
-  - F
-  - {t: G, h: 'Meh+$$mdi:apple-keyboard-command$$'}
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, h: SYMBOL, s: ':'}
-  - {t: '''', s: '"'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: B, h: FN}
-  - N
-  - {t: M, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ',', h: '$$mdi:apple-keyboard-shift$$', s: <}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$'}
-  - {t: /, h: RGUI, s: '?'}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:alpha-w-box$$', h: KBD}
-  - {t: _, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:keyboard-return$$', h: WIN}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
-  - {t: '$$mdi:alpha-w-box$$', h: KBD}
 combos:
 - p: [15, 14]
   k: $$mdi:alpha-w-box$$
