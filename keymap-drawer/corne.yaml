@@ -40,8 +40,8 @@ layers:
   - {t: '$$mdi:alpha-w-box$$', h: KBD}
   - {t: _, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', h: WIN}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:alpha-w-box$$', h: KBD}
   WINDOWS:
   - $$mdi:keyboard-esc$$
@@ -83,8 +83,8 @@ layers:
   - {t: '$$mdi:alpha-w-box$$', h: KBD}
   - {t: _, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', h: WIN}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:alpha-w-box$$', h: KBD}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -169,8 +169,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   WIN:
   - {t: '$$mdi:transfer$$', type: trans}
