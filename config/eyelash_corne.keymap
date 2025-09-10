@@ -116,27 +116,6 @@
             require-prior-idle-ms = <75>;
         };
 
-        assign {
-            bindings = <&kp EQUAL>;
-            key-positions = <16 17>;
-            layers = <0>;
-            require-prior-idle-ms = <75>;
-        };
-
-        lt {
-            bindings = <&kp LESS_THAN>;
-            key-positions = <2 3>;
-            layers = <0>;
-            require-prior-idle-ms = <75>;
-        };
-
-        gt {
-            bindings = <&kp GREATER_THAN>;
-            key-positions = <3 4>;
-            layers = <0>;
-            require-prior-idle-ms = <75>;
-        };
-
         l_bracket {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <8 9>;
