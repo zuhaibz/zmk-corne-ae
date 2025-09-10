@@ -347,15 +347,6 @@ combos:
 - p: [15, 16]
   k: $$mdi:alpha-w-box$$
   l: [QWERTY]
-- p: [16, 17]
-  k: {t: '=', s: +}
-  l: [QWERTY]
-- p: [2, 3]
-  k: <
-  l: [QWERTY]
-- p: [3, 4]
-  k: '>'
-  l: [QWERTY]
 - p: [8, 9]
   k: {t: '[', s: '{'}
   l: [QWERTY]
